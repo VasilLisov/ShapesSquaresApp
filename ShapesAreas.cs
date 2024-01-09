@@ -1,4 +1,8 @@
-﻿namespace ShapesSquaresAreas;
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("ShapesAreasApp.Tests")]
+
+namespace ShapesSquaresAreas;
 
 internal class ShapesAreas : IShapesAreas
 {
