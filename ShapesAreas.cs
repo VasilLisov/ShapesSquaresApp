@@ -1,10 +1,6 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
-[assembly: InternalsVisibleTo("ShapesAreasApp.Tests")]
+﻿namespace ShapesSquaresAreas;
 
-namespace ShapesSquaresAreas;
-
-internal class ShapesAreas : IShapesAreas
+public class ShapesAreas : IShapesAreas
 {
     public bool CheckIfRightAngled(float sideA, float sideB, float sideC)
     {
